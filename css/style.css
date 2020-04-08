@@ -12,7 +12,8 @@ body{
  
 }
 header{
-  width:800px;
+  max-width:800px;
+  width:90%;
   background-color: rgb(253, 208, 64);
   margin:auto;
   margin-bottom:40px;
@@ -24,7 +25,8 @@ header>h1{
 }
 
 section{
-  width:800px;
+  max-width:800px;
+  width:90%;
   background-color: rgb(253, 208, 64);
   margin:auto;
   padding:10px;
@@ -33,7 +35,7 @@ section{
 
 section>div>input{
   font-size:1.2em;
-  width:300px;
+  width:280px;
 }
 
 section>div>button{

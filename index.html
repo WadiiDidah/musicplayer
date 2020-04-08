@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+    <title>Music player</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Music Player</h1>
+    </header>
+    <section>
+        <div class="flex">
+            <input type="text" id="url" placeholder="url:lien.mp3">
+            <button><img src="img/add.png" alt=""></button>
+        </div>
+        <div>
+            <ol>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
+            </ol>
+        </div>
+        <audio controls>
+            <source src="http://michael.peopleofhonoronly.com/mp3/Total_Eclipse_of_the_Heart.mp3" type="audio/mpeg">
+        </audio>
+
+
+    </section>
 </body>
+
 </html>

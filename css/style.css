@@ -1,0 +1,60 @@
+.flex{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+body{
+  
+  background-color: rgb(158, 214, 218);
+  font-family:Arial;
+  font-size:1em;
+ 
+}
+header{
+  width:800px;
+  background-color: rgb(253, 208, 64);
+  margin:auto;
+  margin-bottom:40px;
+  padding:10px;
+}
+
+header>h1{
+  text-align:center; 
+}
+
+section{
+  width:800px;
+  background-color: rgb(253, 208, 64);
+  margin:auto;
+  padding:10px;
+
+}
+
+section>div>input{
+  font-size:1.2em;
+  width:300px;
+}
+
+section>div>button{
+  width:32px;
+  height:32px;
+  padding:0;
+  margin:0;
+}
+section>div>button>img{
+  width:100%;
+}
+section>div>ol>li{
+  display:flex;
+  justify-content:space-between;
+}
+section>audio{
+  width:100%;
+}
+
+
+
+
+
+

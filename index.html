@@ -15,24 +15,19 @@
     <section>
         <div class="flex">
             <input type="text" id="url" placeholder="url:lien.mp3">
-            <button><img src="img/add.png" alt=""></button>
+            <button onclick="ajouter()"><img src="img/add.png" alt=""></button>
         </div>
         <div>
-            <ol>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-                <li><a href="#">They Don't Know.mp3</a> <button>supprimer</button></li>
-            </ol>
+            <ol id="liste_music"></ol>
         </div>
         <audio controls>
-            <source src="http://michael.peopleofhonoronly.com/mp3/Total_Eclipse_of_the_Heart.mp3" type="audio/mpeg">
+            <source  id="play" src="http://michael.peopleofhonoronly.com/mp3/Total_Eclipse_of_the_Heart.mp3" type="audio/mpeg" >
         </audio>
 
 
     </section>
+    
+    <script src="js/script.js"></script>
 </body>
 
 </html>
